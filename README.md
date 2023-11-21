@@ -1,2 +1,2 @@
-# # Laravel - Hospital system
+#Laravel - Hospital system
 
