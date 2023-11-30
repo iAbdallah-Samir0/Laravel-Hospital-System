@@ -22,7 +22,7 @@ class DoctorFactory extends Factory
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpKjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'phone' => $this->faker->phoneNumber,
-            'price' => $this->faker->randomNumber([100,200,300,400,500]),
+            'price' => $this->faker->randomElement([100,200,300,400,500]),
 
         ];
     }
