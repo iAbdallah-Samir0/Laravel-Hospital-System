@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('doctor_translationsdoctor_translations', function (Blueprint $table) {
+        Schema::create('doctor_translations', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('doctor_id')->unsigned();
             $table->string('locale')->index();
